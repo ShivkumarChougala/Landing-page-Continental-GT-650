@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <title>Landing page Continental GT 650</title>
+    </head>
+    <body>
+        <header class="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    Royal Enfield
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="" class="nav__link">Models</a></li>
+                        <li class="nav__item"><a href="" class="nav__link">Brand</a></li>
+                        <li class="nav__item"><a href="" class="nav__link">Store</a></li>
+                        <li class="nav__item"><a href="" class="nav__link">Experience</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav__toggle">
+                    <ion-icon name="menu-outline"></ion-icon>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main container">
+            <div class="home grid">
+                <h1 class="home__title">Continental GT 650 </h1>
+
+                <div onclick="playAudio()" class="home__img">
+                    <img src="assets/img/side-view-3.png" alt="">
+                   
+                </div>
+                <audio id="myAudio">
+                    <source src="./assets/sound/RPReplay_Final1705242508.mp3"  type="audio/mpeg">
+                </audio>
+
+                <div class="home__information">
+                    <h2 class="home__subtitle">Continental<br>GT 650</h2>
+                    <p class="home__description">The Royal Enfield Continental GT 650 is a great bike for someone looking for a vintage style ride with modern updates.The Royal Enfield Continental GT 650 is a great choice for those looking for a classic look and modern features. </p>
+                </div>
+        
+                <div class="box">
+                    <div class="box__content box__medium">  
+                        <ion-icon name="speedometer-outline" class="icon-box"></ion-icon>
+                        <h3 class="box__medium-title inline">5.15</h3>
+                        <span class="box__medium-description block">Sec.</span>
+                        <span class="box__medium-detail">0-100 km/h</span>
+                    </div>
+
+                    <div>
+                        <div class="box__content box__small">
+                            <ion-icon name="trending-up-outline" class="icon-box icon-box--small"></ion-icon>
+                            <h3 class="box__small-title inline">180</h3>
+                            <span class="box__small-description block">km/h</span>
+                            <span class="box__small-detail">Top Speed</span>
+                        </div>
+                        <div class="box__content box__small">
+                            <ion-icon name="car-sport-outline" class="icon-box icon-box--small"></ion-icon>
+                            <h3 class="box__small-title inline">9000</h3>
+                            <span class="box__small-description block">r.p.m</span>
+                            <span class="box__small-detail">Power</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- ICONOS -->
+        <script  type="module" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.esm.js"></script>
+
+        <!-- GSAP -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
+        
+        <!-- MAIN -->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
